@@ -15,7 +15,6 @@ dictServer::dictServer(QObject *parent) : QObject(parent) {
 
     words = new QStringList();
 
-    connect(this, SIGNAL(void QCoreApplication::aboutToQuit()), this, SLOT(aboutToQuit()));
 }
 
 // handles new client connections
